@@ -7,7 +7,4 @@
 * ##### 2.Search Based
 * ##### 3.Mathematical or Analytic Based
 * ##### 4.probability Based
-* ##### 5.Machine Learning (Deep Learning) Based
-
-
-<font color="#00ffff" size="7" face="我是微软雅黑">To be continued 。。。</font>  
+* ##### 5.Machine Learning (Deep Learning) Based 
