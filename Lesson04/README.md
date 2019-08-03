@@ -13,7 +13,6 @@
 + #### 第二步：
     * 使用gensim工具包的LineSentence类对jieba分词完的文件进行读取
     * 读取的内容,使用gensim工具包Word2Vec进行训练，get词向量及model
-    词向量相似度测试：word2vec_simiarity.py
     * 测试两个词相似度以及找出指定词语的近义词
 
 + #### 第三步：
