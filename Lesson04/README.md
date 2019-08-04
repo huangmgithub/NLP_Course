@@ -17,9 +17,9 @@
 
 + #### 第三步：
     * 使用Kaggle给出的T-SEN进行词向量的可视化
-<<<<<<< HEAD
+    
 
-####  词向量原理参考(等我总结自己的 = =)：
+####  词向量原理参考(先看看同学的，等我总结自己的 = =)：
 + https://blog.csdn.net/weixin_40547993/article/details/88773730 
 + https://blog.csdn.net/weixin_40547993/article/details/88776217  
 + https://blog.csdn.net/weixin_40547993/article/details/88779922  
