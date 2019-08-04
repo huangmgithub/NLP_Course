@@ -8,7 +8,7 @@
     * WikiCorpus or wikiextractor 抽取维基百科的内容
     * langconv.py和zh_wiki.py 将繁体中文转简体中文的文件(or opencc hanziconv）
     * jieba 将维基百科内容进行分词
-    * 若使用wikiextractor, 需要进行空格和特殊标点字符的去除(正则),英文都未去除
+    * 若使用wikiextractor, 需要进行空格,英文，特殊标点字符的去除(正则)
 
 + #### 第二步：
     * 使用gensim工具包的LineSentence类对jieba分词完的文件进行读取
