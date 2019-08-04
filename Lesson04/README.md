@@ -5,7 +5,7 @@
 > #### 主要包括三部分：数据预处理、Word2Vec词向量训练、词向量可视化    
 
 + #### 第一步：
-    * WikiCorpus 抽取维基百科的内容(or wikiextractor)
+    * WikiCorpus or wikiextractor 抽取维基百科的内容
     * langconv.py和zh_wiki.py 将繁体中文转简体中文的文件(or opencc hanziconv）
     * jieba 将维基百科内容进行分词
     * 若使用wikiextractor, 需要进行空格和特殊标点字符的去除(正则),英文都未去除
