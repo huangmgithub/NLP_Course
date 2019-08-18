@@ -1,4 +1,4 @@
-# Automatic-speech-extraction
+# Automatic-Speeech-Extraction-From-News
 <font color="gray" size="5" face="我是微软雅黑">新闻人物言论自动提取</font> 
 
 > ### 言论提取
