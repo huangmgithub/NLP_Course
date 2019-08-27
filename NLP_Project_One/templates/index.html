@@ -101,7 +101,7 @@
         function bindSubmit1() {
             $('#sub1').click(function () {
                 var v = $('#news-txt').val();
-                $('#Loading').modal('show');
+                $('#Loading').modal('show'); //显示加载框
                 $.ajax({
                     url: "/submit_news",
                     type: 'POST',
@@ -115,9 +115,11 @@
                         // 这里arg居然是对象。。。浪费时间
                         //var dict = JSON.parse(arg);
                         if (arg.status) {
-                            $('#Loading').modal('hide');
+                            $('#tb').empty(); //清除前面的显示结果
+                            $('#Loading').modal('hide'); //隐藏加载框
                             // console.log(arg.news);
                             var exNews = arg.news;
+                            {#window.location.reload();#}
                             for (var i = 0; i < exNews.length; i++) {
                                 createRow(i, exNews[i]);
                             }

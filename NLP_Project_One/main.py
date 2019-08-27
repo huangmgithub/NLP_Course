@@ -1,13 +1,29 @@
 import logging # 日志记录
 from utils.ltp import LTP  # 文本处理(分词，词性分析，词性标注，命名实体识别，依存句法分析)
 from bin.get_doc_similarity import compare_txt_similarity  # 比较文本相似度
-import os
+import os,re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(lineno)d -  %(message)s')
 logger = logging.getLogger(__name__)
 
 BASE_DIR = './data'
 LTP_MODEL_DIR = './model/ltp_data_v3.4.0'
+
+
+def process_news_by_ltp(news):
+    """
+    ltp处理新闻数据
+    :param news:
+    :return:
+    """
+    ltp = LTP(model_path=LTP_MODEL_DIR) # 导入ltp
+    sentence_list = ltp.sentence_split(news)  # 分句
+    words_list = ltp.word_split(news)  # 分词
+    postags_list = ltp.word_tag(words_list)  # 词性标注
+    entity_list = ltp.name_entity_recognize(words_list, postags_list)  # 命名实体识别
+    arcs, relation, heads = ltp.dependence_parse(words_list, postags_list)  # 依存句法分析
+
+    return arcs, relation, heads, words_list, entity_list
 
 def get_opinion_from_news(news, words_like_say_list, f_w=None):
     """
@@ -17,26 +33,21 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
     :param f_w:   写入文件
     :return:
     """
-    # ltp处理文本
-    ltp = LTP(model_path=LTP_MODEL_DIR)
-    # sentence_list = ltp.sentence_split(news)  # 分句
-    words_list = ltp.word_split(news)  # 分词
-    postags_list = ltp.word_tag(words_list)  # 词性标注
-    entity_list = ltp.name_entity_recognize(words_list, postags_list) # 命名实体识别
+    arcs, relation, heads, words_list, entity_list = process_news_by_ltp(news)
 
     full_point_list = [index for index, word in enumerate(words_list) if word == "。"]  # 句号的位置
 
-    res = [] # 返回新闻文本抽取处理结果
+    res = []  # 返回新闻文本抽取处理结果
 
     if not full_point_list:
         full_point_list.append(len(words_list) - 1)
 
     if full_point_list[-1] != len(words_list) - 1:
-        full_point_list.append(len(words_list) - 1)
+        full_point_list.append(len(words_list) - 1) # 若最后一个句号不是在末尾，则添加最后一句
 
-    arcs, relation, heads = ltp.dependence_parse(words_list, postags_list)  # 依存句法分析
+
     for a, r, w, h, e in zip(arcs, relation, words_list, heads, entity_list):
-        if 'S-Ns' != e[1] and 'S-Ni' != e[1] and 'S-Nh' != e[1]: # 判断新闻中是否包含人名，机构名等
+        if e[1] not in ['S-Ns','S-Ni','S-Nh']: # 判断新闻中是否包含人名，机构名
             continue
         if r == "SBV": # 过滤出SBV的主谓结构
             if h in words_like_say_list:
@@ -49,7 +60,7 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                         end_point = point  # 谓词所在句子的句号位置
                         break
                 if words_list[head] in [',','，',':','：','?','？','!','！']:
-                    head += 1
+                    head += 1 # 若谓词后面是符号，则快进一位
 
                 if len(words_list[head:end_point + 1]) < 5:
                     ob = []
@@ -77,11 +88,14 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                         end_point = full_point_list[full_point_list.index(end_point) + 1]
                 if ob == []:
                     continue
+                if '。' in w:
+                    w = re.sub(r'(。|\s+)', '', w) # 去掉S中误匹配的。
+
                 logger.info("写入ing")
                 res.append((w, h, ''.join(ob)))  # 待返回内容
-                # f_w.write("{0} {1} {2}".format(w, h, ''.join(ob)) + '\n')
 
-    # f_w.write("\n++++++++++++++++++++++++++++++++++++ 分割线 ++++++++++++++++++++++++++++++++++++\n")
+                if f_w:
+                    f_w.write("{0} {1} {2}".format(w, h, ''.join(ob)) + '\n')
     return res
 
 
@@ -90,15 +104,16 @@ if __name__ == "__main__":
     # 获得与说相近的词 f1
     # 新闻存储文本
     # 创建txt文件保存结果 f_w
+
     with open(os.path.join(BASE_DIR, 'words.txt'), 'r', encoding='utf-8') as f1, \
-        open(os.path.join(BASE_DIR, 'filter_news.txt'), 'r', encoding='utf-8') as f2, \
+            open(os.path.join(BASE_DIR, 'filter_news.txt'), 'r', encoding='utf-8') as f2, \
             open(os.path.join(BASE_DIR, 'result.txt'), 'w', encoding='utf-8') as f_w:
 
-            # 获得与“说”相近的词列表
-            words_like_say_list = f1.read().split(' ')
+        # 获得与“说”相近的词列表
+        words_like_say_list = f1.read().split(' ')
 
-            for news in f2:
-                res = get_opinion_from_news(news, words_like_say_list, f_w)
+        for news in f2:
+            res = get_opinion_from_news(news, words_like_say_list, f_w)
 
 
 
