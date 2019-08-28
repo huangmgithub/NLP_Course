@@ -9,10 +9,10 @@
 	display: flex;
 }
 .content .left {
-	width: 60%
+	width: 100%
 }
 .content .right {
-	width: 40%;
+	width: 10%;
 	overflow: visible;
     word-break: break-word;
 	display: flex;
@@ -104,7 +104,7 @@ function draw(data, first) {
   const node = svg.append("g")
       .attr("class", "nodes")
       .attr("stroke", "#fff")
-      .attr("stroke-width", 1.5)
+      .attr("stroke-width", 1)
       .selectAll("circle")
       .data(nodes)
       .join("circle")
@@ -137,9 +137,9 @@ function draw(data, first) {
 <div class="content">
 <div class="left">
 </div>
-<div class="right">
-点击左侧点出现点的具体信息
-</div>
+{#<div class="right">#}
+{#点击左侧点出现点的具体信息#}
+{#</div>#}
 </div>
 </body>
 </html>
