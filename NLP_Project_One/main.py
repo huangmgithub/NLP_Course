@@ -2,6 +2,7 @@ import logging # 日志记录
 from utils.ltp import LTP  # 文本处理(分词，词性分析，词性标注，命名实体识别，依存句法分析)
 from bin.get_doc_similarity import compare_txt_similarity  # 比较文本相似度
 import os,re
+from bin.get_d3_json import save_json # save json file
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(lineno)d -  %(message)s')
 logger = logging.getLogger(__name__)
@@ -59,7 +60,9 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                     if point > head - 1:
                         end_point = point  # 谓词所在句子的句号位置
                         break
-                if words_list[head] in [',','，',':','：','?','？','!','！']:
+                else:
+                    continue
+                if words_list[head] in [',','，',':','：','?','？','!','！']: # 未解决：报错indexError
                     head += 1 # 若谓词后面是符号，则快进一位
 
                 if len(words_list[head:end_point + 1]) < 5:
@@ -114,6 +117,8 @@ if __name__ == "__main__":
 
         for news in f2:
             res = get_opinion_from_news(news, words_like_say_list, f_w)
+
+    # save_json() # 保存为json文件
 
 
 

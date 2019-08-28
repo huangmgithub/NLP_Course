@@ -6,7 +6,7 @@ def filter_news():
             open('../data/words.txt', 'r', encoding='utf-8') as f2:
                 f_w = open('../data/filter_news.txt', 'w', encoding='utf-8')
                 words = f2.read().split(' ')
-                print(words)
+                # print(words)
                 for line in f1:
                     for word in words:
                         if word in line:

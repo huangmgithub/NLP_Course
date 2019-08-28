@@ -28,7 +28,7 @@ def compare_txt_similarity(s1, s2):
     s2 = ' '.join(s2)
     l.append(s1)
     l.append(s2)
-    if tf_idf_similarity(l) > 0.75:
+    if tf_idf_similarity(l) > 0.8:
         return True
     return False
 

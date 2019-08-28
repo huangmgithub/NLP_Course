@@ -13,8 +13,22 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 BASE_DIR = './data'
 
 def allowed_file(filename):
+    """
+    检查文件是否符合格式
+    :param filename:文件名
+    :return: Bool
+    """
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
+@app.route('/d3_page')
+def d3_page():
+    """
+    d3可视化
+    :return:
+    """
+    return render_template('d3_page.html')
 
 @app.route('/index')
 def index():
@@ -28,7 +42,6 @@ def index():
 def get_word_cloud():
     """显示词云图片"""
     return render_template('word_cloud.html')
-
 
 @app.route('/login', methods=['GET','POST'])
 def login():

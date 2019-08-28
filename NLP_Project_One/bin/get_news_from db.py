@@ -17,7 +17,7 @@ def connect_db(host, port, user, password, db):
     cur = conn.cursor()# 获取一个游标
     cur.execute("select content from news_chinese")  # 具体的数据库操作语句
     contents = cur.fetchall()  # 将所有查询结果返回为元组
-    print(len(contents))
+    # print(len(contents))
     cur.close()# 关闭游标
     conn.close() # 释放数据库资源
     return contents
