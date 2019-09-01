@@ -54,7 +54,7 @@
     To be Continued......
 
 #### 登录界面                                  
-![login]('https://github.com/huangmgithub/NLP_Course/edit/master/NLP_Project_One/login.PNG)
+![login](https://github.com/huangmgithub/NLP_Course/edit/master/NLP_Project_One/login.PNG)
 
 #### 主页面
-![main_page]('https://github.com/huangmgithub/NLP_Course/edit/master/NLP_Project_One/main.PNG)
+![main_page](https://github.com/huangmgithub/NLP_Course/edit/master/NLP_Project_One/main.PNG)
