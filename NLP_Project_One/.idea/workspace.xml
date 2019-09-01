@@ -10,16 +10,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NLP_Project_One$tf_idf.coverage" NAME="tf_idf Coverage Results" MODIFIED="1565611856918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$main.coverage" NAME="main Coverage Results" MODIFIED="1565691448933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1565757551072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$get_news_from_db.coverage" NAME="get_news_from db Coverage Results" MODIFIED="1567260411490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$ltp.coverage" NAME="ltp Coverage Results" MODIFIED="1565419889822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$filter_say_news.coverage" NAME="filter_say_news Coverage Results" MODIFIED="1567260496262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$link_db.coverage" NAME="link_db Coverage Results" MODIFIED="1565622870380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$get_word_like_say.coverage" NAME="get_word_like_say Coverage Results" MODIFIED="1566742041653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$main.coverage" NAME="main Coverage Results" MODIFIED="1566974486696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$get_d3_json.coverage" NAME="get_d3_json Coverage Results" MODIFIED="1566978323573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1567326729117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Project_One$123__1_.coverage" NAME="123 (1) Coverage Results" MODIFIED="1565616912236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Project_One$123.coverage" NAME="123 Coverage Results" MODIFIED="1565520419015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Project_One$process_corpus.coverage" NAME="process_corpus Coverage Results" MODIFIED="1565606043111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$word_cloud.coverage" NAME="word_cloud Coverage Results" MODIFIED="1565755965838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$ltp.coverage" NAME="ltp Coverage Results" MODIFIED="1565419889822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$filter_say_news.coverage" NAME="filter_say_news Coverage Results" MODIFIED="1565625225383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$link_db.coverage" NAME="link_db Coverage Results" MODIFIED="1565622870380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/NLP_Project_One$get_word_like_say.coverage" NAME="get_word_like_say Coverage Results" MODIFIED="1565624652684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/NLP_Project_One$word_cloud.coverage" NAME="word_cloud Coverage Results" MODIFIED="1565874872238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1346313989">
@@ -57,63 +59,127 @@
     <session id="-1995608902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="6" />
+          <entry key="project.open.time.18" value="7" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="32" />
+          <entry key="Python Console" value="84" />
+          <entry key="css" value="20" />
           <entry key="dummy" value="70" />
-          <entry key="html" value="2279" />
-          <entry key="js" value="2" />
-          <entry key="py" value="18327" />
+          <entry key="html" value="3150" />
+          <entry key="js" value="18" />
+          <entry key="py" value="20211" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2279" />
-          <entry key="JavaScript" value="2" />
+          <entry key="CSS" value="20" />
+          <entry key="HTML" value="3150" />
+          <entry key="JavaScript" value="18" />
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="Python" value="18359" />
+          <entry key="Python" value="20295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
-          <entry key="css" value="4" />
-          <entry key="html" value="24" />
+          <entry key="css" value="8" />
+          <entry key="html" value="50" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="6" />
+          <entry key="js" value="10" />
+          <entry key="json" value="12" />
           <entry key="md" value="1" />
           <entry key="otf" value="1" />
           <entry key="png" value="13" />
-          <entry key="py" value="67" />
+          <entry key="py" value="103" />
           <entry key="pyi" value="2" />
           <entry key="result" value="1" />
+          <entry key="song" value="1" />
           <entry key="ttf" value="5" />
-          <entry key="txt" value="104" />
+          <entry key="txt" value="136" />
           <entry key="version" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="24" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="50" />
           <entry key="Image" value="15" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="10" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="112" />
-          <entry key="Python" value="67" />
+          <entry key="PLAIN_TEXT" value="145" />
+          <entry key="Python" value="103" />
           <entry key="PythonStub" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1392668407">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="22" />
+          <entry key="jpg" value="6" />
+          <entry key="js" value="7" />
+          <entry key="map" value="1" />
+          <entry key="png" value="4" />
+          <entry key="py" value="19" />
+          <entry key="scss" value="7" />
+          <entry key="svg" value="6" />
+          <entry key="ttf" value="1" />
+          <entry key="txt" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="22" />
+          <entry key="Image" value="10" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="19" />
+          <entry key="SCSS" value="7" />
+          <entry key="SVG" value="6" />
+          <entry key="SourceMap" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="639" />
+          <entry key="js" value="31" />
+          <entry key="py" value="350" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="639" />
+          <entry key="JavaScript" value="31" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="350" />
         </counts>
       </usages-collector>
     </session>
@@ -121,10 +187,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/login/js/supersized-init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -136,8 +223,8 @@
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -150,6 +237,10 @@
       <find>河北</find>
       <find>师范</find>
       <find>195</find>
+      <find>ttf</find>
+      <find>强调</find>
+      <find>刘</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -158,24 +249,36 @@
         <option value="$PROJECT_DIR$/utils/ltp/base.py" />
         <option value="$PROJECT_DIR$/static/demo_css.css" />
         <option value="$PROJECT_DIR$/templates/hello.html" />
-        <option value="$PROJECT_DIR$/data/result.txt" />
         <option value="$PROJECT_DIR$/utils/tf_idf.py" />
         <option value="$PROJECT_DIR$/process_corpus.py" />
         <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/utils/link_db.py" />
         <option value="$PROJECT_DIR$/bin.py" />
-        <option value="$PROJECT_DIR$/bin/get_doc_similarity.py" />
         <option value="$PROJECT_DIR$/bin/get_word_like_say.py" />
-        <option value="$PROJECT_DIR$/bin/filter_say_news.py" />
         <option value="$PROJECT_DIR$/utils/ltp.py" />
         <option value="$PROJECT_DIR$/static/js/ie10-viewport-bug-workaround.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/utils/word_cloud.py" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/word_cloud.html" />
+        <option value="$PROJECT_DIR$/templates/d3_test.html" />
+        <option value="$PROJECT_DIR$/data/word_cloud/song" />
+        <option value="$PROJECT_DIR$/utils/word_cloud.py" />
+        <option value="$PROJECT_DIR$/bin/get_doc_similarity.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/bin/filter_say_news.py" />
+        <option value="$PROJECT_DIR$/data/result.txt" />
+        <option value="$PROJECT_DIR$/bin/get_d3_json.py" />
+        <option value="$PROJECT_DIR$/templates/d3_page.html" />
+        <option value="$PROJECT_DIR$/static/login/css/supersized.css" />
+        <option value="$PROJECT_DIR$/static/login/css/style.css" />
+        <option value="$PROJECT_DIR$/bin/get_news_from db.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/index1.html" />
+        <option value="$PROJECT_DIR$/data/words.txt" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/login/js/supersized-init.js" />
+        <option value="$USER_HOME$/Desktop/123 (2).py" />
       </list>
     </option>
   </component>
@@ -191,18 +294,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/static/index/iconfonts/mdi/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
-    <option name="y" value="78" />
-    <option name="width" value="1442" />
-    <option name="height" value="990" />
+    <option name="x" value="178" />
+    <option name="y" value="61" />
+    <option name="width" value="1472" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,13 +325,32 @@
             <path>
               <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_Project_One" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_Project_One" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="word_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_Project_One" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_Project_One" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_Project_One" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP_Project_One" type="b2602c69:ProjectViewProjectNode" />
@@ -240,12 +366,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Django/Ajax001" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/123 (2).py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -254,19 +381,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wiki\NLP_Project_One\data\word_cloud" />
-      <recent name="E:\wiki\NLP_Project_One\static\fonts" />
-      <recent name="E:\wiki\NLP_Project_One\static\js" />
-      <recent name="E:\wiki\NLP_Project_One\static\css" />
-      <recent name="E:\wiki\NLP_Project_One\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wiki\NLP_Project_One\data\word_cloud" />
-      <recent name="E:\wiki\NLP_Project_One\static\fonts" />
-      <recent name="E:\wiki\NLP_Project_One\static\css" />
-      <recent name="E:\wiki\NLP_Project_One\bin" />
-      <recent name="E:\wiki\NLP_Project_One\data\word_cloud_test" />
+      <recent name="G:\NLP_Project_One\static\login\img" />
+      <recent name="G:\NLP_Project_One\static\index\images" />
+      <recent name="G:\NLP_Project_One\static\index" />
+      <recent name="G:\NLP_Project_One\static\index\js" />
+      <recent name="G:\NLP_Project_One\static\index\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\NLP_Project_One\static\js" />
+      <recent name="G:\NLP_Project_One\static\index" />
+      <recent name="G:\NLP_Project_One\static\index\css" />
+      <recent name="G:\NLP_Project_One\static\index\images" />
+      <recent name="G:\NLP_Project_One\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +431,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_word_like_say" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_d3_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_Project_One" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,7 +444,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/get_word_like_say.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/get_d3_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_news_from db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_Project_One" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/get_news_from db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,28 +489,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="word_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NLP_Project_One" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/word_cloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,19 +529,19 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.NLP_Project_One" />
-      <item itemvalue="Python.get_word_like_say" />
-      <item itemvalue="Python.filter_say_news" />
       <item itemvalue="Python.main" />
       <item itemvalue="Flask server.Flask (app.py)" />
-      <item itemvalue="Python.word_cloud" />
+      <item itemvalue="Python.get_d3_json" />
+      <item itemvalue="Python.get_news_from db" />
+      <item itemvalue="Python.filter_say_news" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
-        <item itemvalue="Python.word_cloud" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.filter_say_news" />
-        <item itemvalue="Python.get_word_like_say" />
+        <item itemvalue="Python.get_news_from db" />
+        <item itemvalue="Python.get_d3_json" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -441,29 +568,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="78" width="1442" height="990" extended-state="0" />
+    <frame x="178" y="61" width="1472" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16642547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21458924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23317307" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32616487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26642773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5137395" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32786885" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.22599532" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32497013" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2253012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.21128799" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6787265" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -474,264 +601,230 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/ltp_data_v3.4.0/version">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test.png" />
-    <entry file="file://$PROJECT_DIR$/data/result" />
-    <entry file="file://$PROJECT_DIR$/static/d3/API.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/stopwords_cn_en.txt">
+    <entry file="file://$PROJECT_DIR$/bin/get_news_from db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="230" column="2" lean-forward="true" selection-start-line="230" selection-start-column="2" selection-end-line="230" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/constitution.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/python36/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python36/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123.py" />
-    <entry file="file://$PROJECT_DIR$/bin.py" />
-    <entry file="file://$PROJECT_DIR$/bin/get_doc_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <marker date="1565623836575" expanded="true" signature="199:291" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/get_word_like_say.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/filter_say_news.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="144">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/ltp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/dashboard.css">
+    <entry file="file://$PROJECT_DIR$/static/index/js/vendor.bundle.base.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ie10-viewport-bug-workaround.js">
+    <entry file="file://$PROJECT_DIR$/static/index/css/maps/style.css.map" />
+    <entry file="file://$PROJECT_DIR$/static/index/js/misc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/images/faces/face1.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/dashboard/circle.svg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/dashboard/img_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/dashboard/img_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/faces-clipart/pic-1.png" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/faces-clipart/pic-2.png" />
+    <entry file="file://$PROJECT_DIR$/templates/d3_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_functions.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Django/Ajax001/manage.py">
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/materialdesignicons.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/news.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="18">
-          <caret line="300" column="15" selection-start-line="300" selection-start-column="15" selection-end-line="300" selection-end-column="15" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
       </provider>
     </entry>
-    <entry file="file://C:/python36/Lib/site-packages/flask/json/__init__.py">
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_path.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_extras.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-786">
-          <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
-        </state>
+        <state relative-caret-position="-648" />
       </provider>
     </entry>
-    <entry file="file://C:/python36/Lib/site-packages/flask/__init__.py">
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/scss/_animated.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/fonts/materialdesignicons-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/fonts/materialdesignicons-webfont.ttf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/iconfonts/mdi/css/materialdesignicons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="e#397#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-522">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/data/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/get_news_from db.py">
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/images/favicon.png" />
+    <entry file="file://$PROJECT_DIR$/data/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state>
+          <caret column="75" selection-start-column="73" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/filter_news.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-224">
-          <caret line="1030" column="100" selection-start-line="1030" selection-start-column="100" selection-end-line="1030" selection-end-column="100" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/python36/Lib/site-packages/werkzeug/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/filter_news.txt" />
-    <entry file="file://$PROJECT_DIR$/data/upload/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="449">
+          <caret line="1192" column="1134" selection-start-line="1192" selection-start-column="1128" selection-end-line="1192" selection-end-column="1134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python36/Lib/site-packages/scipy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/SourceHanSerifK-Light.otf">
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/font.ttf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_like_say.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        <state relative-caret-position="344">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/bird.png">
+    <entry file="file://$PROJECT_DIR$/data/news.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="107">
+          <caret line="419" column="8" lean-forward="true" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18590" column="11" selection-start-line="18590" selection-start-column="6" selection-end-line="18590" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/css/vendor.bundle.base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/images/logo-mini.svg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/news.svg" />
+    <entry file="file://$PROJECT_DIR$/static/index/images/xinwen.svg" />
+    <entry file="file://C:/python36/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="842" column="8" selection-start-line="842" selection-start-column="8" selection-end-line="842" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ltp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="127" column="64" lean-forward="true" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#99#0" expanded="true" />
+            <marker date="1567318056832" expanded="true" signature="422:770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/upload/new.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="105" selection-start-line="1" selection-start-column="104" selection-end-line="1" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/login/img/4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/dog.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/fish.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/msyh.ttf">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/66.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/888.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/alice_mask.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/alice.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/words.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="859">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/word_cloud.png">
+    <entry file="file://$PROJECT_DIR$/static/login/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/word_cloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#131#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/static/login/js/supersized.3.2.7.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="12" column="603" selection-start-line="12" selection-start-column="603" selection-end-line="12" selection-end-column="603" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/word_cloud/animal.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/word_cloud.html">
+    <entry file="file://$PROJECT_DIR$/static/login/js/supersized-init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="378">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/123 (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="539" lean-forward="true" selection-start-line="539" selection-end-line="539" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-            <marker date="1565757141777" expanded="true" signature="422:575" ph="..." />
-            <marker date="1565757141777" expanded="true" signature="734:800" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>

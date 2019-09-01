@@ -36,12 +36,10 @@ def index():
     首页
     :return:
     """
-    return render_template('index.html')
+    if session.get('is_login', None):
+        return render_template('index.html')
+    return redirect(url_for('login'))
 
-@app.route('/word_cloud')
-def get_word_cloud():
-    """显示词云图片"""
-    return render_template('word_cloud.html')
 
 @app.route('/login', methods=['GET','POST'])
 def login():
@@ -64,6 +62,7 @@ def login():
         if username == "root" and password == "123":
             session['username'] = username
             session['password'] = password
+            session['is_login'] = True
             return redirect(url_for('index'))
         else:
             return "Invalid username/password"
@@ -121,7 +120,7 @@ def get_news_from_file():
             filename = secure_filename(file.filename)
             if file and allowed_file(file.filename):
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            with open(os.path.join(app.config['UPLOAD_FOLDER'], filename), 'r', encoding='gbk') as f1, \
+            with open(os.path.join(app.config['UPLOAD_FOLDER'], filename), 'r', encoding='utf-8') as f1, \
                 open(os.path.join(BASE_DIR, 'words.txt'), 'r', encoding='utf-8') as f2:
                     words_like_say_list = f2.read().split(' ')
                     for line in f1:
@@ -134,7 +133,6 @@ def get_news_from_file():
             print(e)
         res['status'] = status
         res['message'] = message
-        print(res)
         return jsonify(res)
 
 # set the secret key.  keep this really secret:
@@ -142,4 +140,4 @@ app.secret_key = os.urandom(24)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='127.0.0.1',debug=True)

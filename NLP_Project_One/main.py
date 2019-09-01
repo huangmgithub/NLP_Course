@@ -62,42 +62,50 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                         break
                 else:
                     continue
-                if words_list[head] in [',','，',':','：','?','？','!','！']: # 未解决：报错indexError
-                    head += 1 # 若谓词后面是符号，则快进一位
+                # 本句
+                if words_list[head] in ['.','。','!','！']:
+                    prev2_end_point = full_point_list[full_point_list.index(end_point) - 2]
+                    prev1_end_point = full_point_list[full_point_list.index(end_point) - 1]
+                    ob = words_list[prev2_end_point+1:prev1_end_point+2]
+                else:
+                    # if words_list[head] in [',','，',':','：','?','？']: # 未解决：报错indexError
+                    #     head += 1 # 若谓词后面是符号，则快进一位
 
-                if len(words_list[head:end_point + 1]) < 5:
-                    ob = []
-                else:
-                    ob = words_list[head:end_point + 1]
-                if len(full_point_list) - full_point_list.index(end_point) == 1:
-                    pass
-                elif len(full_point_list) - full_point_list.index(end_point) == 2:
-                    next_end_point = full_point_list[-1]
-                    if len(words_list[end_point + 1: next_end_point + 1]) >= 3:
-                        print(end_point+1, next_end_point+1)
-                        ob += words_list[end_point + 1: next_end_point + 1]
-                else:
-                    next_sentence_count = len(full_point_list) - full_point_list.index(end_point) - 1
-                    for i in range(next_sentence_count):
-                        cur_sentence_start = full_point_list[full_point_list.index(end_point) - 1]
-                        cur_sentence_stop = end_point
-                        cur_sentence = words_list[cur_sentence_start + 1:cur_sentence_stop + 1]
-                        compare_sentence_stop = full_point_list[full_point_list.index(end_point) + 1]
-                        compare_sentence = words_list[cur_sentence_stop + 1:compare_sentence_stop + 1]
-                        if compare_txt_similarity(cur_sentence, compare_sentence):
-                            ob += compare_sentence
-                        else:
-                            break
-                        end_point = full_point_list[full_point_list.index(end_point) + 1]
+                    if len(words_list[head:end_point + 1]) < 5:
+                        ob = []
+                    else:
+                        ob = ''.join(words_list[head:end_point + 1]).split('，',1)[1]
+
+                    # 跨句子
+                    if len(full_point_list) - full_point_list.index(end_point) == 1:
+                        pass
+                    elif len(full_point_list) - full_point_list.index(end_point) == 2:
+                        next_end_point = full_point_list[-1]
+                        if len(words_list[end_point + 1: next_end_point + 1]) >= 3:
+                            print(end_point+1, next_end_point+1)
+                            ob += words_list[end_point + 1: next_end_point + 1]
+                    else:
+                        next_sentence_count = len(full_point_list) - full_point_list.index(end_point) - 1
+                        for i in range(next_sentence_count):
+                            cur_sentence_start = full_point_list[full_point_list.index(end_point) - 1]
+                            cur_sentence_stop = end_point
+                            cur_sentence = words_list[cur_sentence_start + 1:cur_sentence_stop + 1]
+                            compare_sentence_stop = full_point_list[full_point_list.index(end_point) + 1]
+                            compare_sentence = words_list[cur_sentence_stop + 1:compare_sentence_stop + 1]
+                            if compare_txt_similarity(cur_sentence, compare_sentence):
+                                ob += compare_sentence
+                            else:
+                                break
+                            end_point = full_point_list[full_point_list.index(end_point) + 1]
                 if ob == []:
                     continue
                 if '。' in w:
                     w = re.sub(r'(。|\s+)', '', w) # 去掉S中误匹配的。
 
-                logger.info("写入ing")
                 res.append((w, h, ''.join(ob)))  # 待返回内容
 
                 if f_w:
+                    logger.info("写入ing")
                     f_w.write("{0} {1} {2}".format(w, h, ''.join(ob)) + '\n')
     return res
 
