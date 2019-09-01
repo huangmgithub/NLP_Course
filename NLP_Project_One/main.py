@@ -48,8 +48,8 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
 
 
     for a, r, w, h, e in zip(arcs, relation, words_list, heads, entity_list):
-        if e[1] not in ['S-Ns','S-Ni','S-Nh']: # 判断新闻中是否包含人名，机构名
-            continue
+        # if e[1] not in ['S-Ns','S-Ni','S-Nh']: # 判断新闻中是否包含人名，机构名
+        #     continue
         if r == "SBV": # 过滤出SBV的主谓结构
             if h in words_like_say_list:
                 head = a.head  # 父节点词的索引
@@ -63,18 +63,17 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                 else:
                     continue
                 # 本句
-                if words_list[head] in ['.','。','!','！']:
+                if words_list[head] in ['.','。','!','！']: # 谓词后面句号
                     prev2_end_point = full_point_list[full_point_list.index(end_point) - 2]
                     prev1_end_point = full_point_list[full_point_list.index(end_point) - 1]
                     ob = words_list[prev2_end_point+1:prev1_end_point+2]
+                elif words_list[head] in [':','：']: # 谓词后面冒号
+                    ob = words_list[head+1:end_point+2]
                 else:
-                    # if words_list[head] in [',','，',':','：','?','？']: # 未解决：报错indexError
-                    #     head += 1 # 若谓词后面是符号，则快进一位
-
-                    if len(words_list[head:end_point + 1]) < 5:
+                    if len(words_list[head:end_point + 1]) < 5:  # 谓词到句尾短暂时去除
                         ob = []
                     else:
-                        ob = ''.join(words_list[head:end_point + 1]).split('，',1)[1]
+                        ob = ''.join(words_list[head:end_point + 1]).split('，',1)[1] # 去除谓词到第一个逗号的内容
 
                     # 跨句子
                     if len(full_point_list) - full_point_list.index(end_point) == 1:
@@ -86,6 +85,7 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
                             ob += words_list[end_point + 1: next_end_point + 1]
                     else:
                         next_sentence_count = len(full_point_list) - full_point_list.index(end_point) - 1
+                        # 相关性比较
                         for i in range(next_sentence_count):
                             cur_sentence_start = full_point_list[full_point_list.index(end_point) - 1]
                             cur_sentence_stop = end_point
