@@ -54,7 +54,7 @@
     To be Continued......
 
 #### 登录界面                                  
-![login]('./login.PNG)
+![login]('login.PNG)
 
 #### 主页面
-![main_page]('./main.PNG)
+![main_page]('main.PNG)
