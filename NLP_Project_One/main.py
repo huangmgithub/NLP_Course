@@ -48,8 +48,8 @@ def get_opinion_from_news(news, words_like_say_list, f_w=None):
 
 
     for a, r, w, h, e in zip(arcs, relation, words_list, heads, entity_list):
-        # if e[1] not in ['S-Ns','S-Ni','S-Nh']: # 判断新闻中是否包含人名，机构名
-        #     continue
+        if e[1] not in ['S-Ns','S-Ni','S-Nh']: # 判断新闻中是否包含人名，机构名
+            continue
         if r == "SBV": # 过滤出SBV的主谓结构
             if h in words_like_say_list:
                 head = a.head  # 父节点词的索引
